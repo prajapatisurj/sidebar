@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar-Design</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="topbar">
-        <div class="navbar-main">
-            <h1 class="logo">Logo</h1>
-            <h1 style="padding-right: 2rem;">Navbar-Design</h1>
-        </div>
-    </div>
-    <div class="main">
-        <div class="sidebar" id="sidebar">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div class="toggle-icon" onclick="toggleSidebar()" id="toggleIcon">
-            ➤
-        </div>
-        <div class="content">
-            <div class="header">
-                <h1>Welcome to My Website</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navbar-Design</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="navbar-main">
+                <h1 class="logo">Logo</h1>
+                <h1 style="padding-right: 2rem;">Navbar-Design</h1>
             </div>
         </div>
-    </div>
-    <script src="scripts.js"></script>
-</body>
+        <div class="main">
+            <div class="sidebar" id="sidebar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="toggle-icon" onclick="toggleSidebar()" id="toggleIcon">
+                ➤
+            </div>
+        </div>
+        <div class="hero content">
+            <div class="hero-content">
+                <h1>My first hero section </h1>
+                <p>Morbi suscipit, lectus eget hendrerit vehicula, elit purus
+                    elementum nibh, mattis congue urna neque et eros. Morbi
+                    rhoncus suscipit orci. Mauris tincidunt dui quis nisi
+                    vehicula, quis consequat lacus rutrum. Maecenas mattis
+                    mattis pretium. Vestibulum in scelerisque risus. Ut iaculis
+                    lacus quis nulla varius, eu rutrum mi feugiat. Nunc dictum
+                    leo nunc, at accumsan urna mollis ac. Maecenas vestibulum
+                    diam sit amet dolor faucibus, eget efficitur est bibendum.
+                </p>
+            </div>
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Hero Image">
+            </div>
+        </div>
+        <div class="card-container" id="cardContainer">
+        </div>
+        <script src="scripts.js"></script>
+    </body>
 </html>
